@@ -45,3 +45,28 @@
     width: 200px;
     height: 200px;
 }
+.intro-container{
+    padding-top: 125px;
+    height: 300px;
+    text-align: center;
+}
+.intro-container h1{
+    font-family: 'Roboto','sans-serif';
+    color:black;
+    font-weight: bold;
+    line-height: 50px;
+}
+.intro-container h2{
+    font-family: 'Roboto','sans-serif';
+    color:black;
+    font-weight: lighter;
+    line-height: 50px;
+}
+.intro-container p{
+    font-family: 'Roboto','sans-serif';
+    color:black;
+    font-weight:normal;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
