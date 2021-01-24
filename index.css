@@ -72,3 +72,12 @@
     margin-right: auto;
     width: 700px;
 }
+.videos{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid black;
+    justify-content: center;
+}
+.videos img{
+    width: 500px;
+}
