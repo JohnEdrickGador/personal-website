@@ -2,9 +2,12 @@
 
 *{
     margin: 0;
-    box-sizing: 0;
 }
-
+#profile-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
 #banner{
     text-align: center;
     background-image: linear-gradient(45deg,#202029,#1E1E24);
@@ -27,15 +30,13 @@
     width: 200px;
     height: 50px;
 }
-#profile-container{
-    position: absolute;
-}
+
 .image-container{
     width: auto;
     height: 200px;
     width: 200px;
     background-color: white;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -64,9 +65,10 @@
 }
 .intro-container p{
     font-family: 'Roboto','sans-serif';
+    font-size: 20px;
     color:black;
     font-weight:normal;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
 }
