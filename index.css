@@ -1,83 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     margin: 0;
-}
-#profile-container{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-}
-#banner{
-    text-align: center;
-    background-image: linear-gradient(45deg,#202029,#1E1E24);
-    height: 500px;
-}
-#banner-text{
-    padding-top: 150px;
-    font-family: 'Roboto', sans-serif;
-    color:#FB9F89;
-    font-size: 45px;
-}
-#know-more{
-    margin-top: 50px;
-    background-color:#FB9F89;
-    border:1px;
-    color: white;
-    font-family: 'Roboto','sans-serif';
-    font-size: 20px;
-    border-radius: 15px;
-    width: 200px;
-    height: 50px;
+    box-sizing:0;
 }
 
-.image-container{
-    width: auto;
-    height: 200px;
-    width: 200px;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translateY(100px);
+body{
+    background-image: linear-gradient(-90deg,#1e1e24,#1b1b2c);
 }
-.image-container img{
-    width: 200px;
-    height: 200px;
-}
-.intro-container{
-    padding-top: 125px;
-    height: 300px;
-    text-align: center;
-}
-.intro-container h1{
-    font-family: 'Roboto','sans-serif';
-    color:black;
-    font-weight: bold;
-    line-height: 50px;
-}
-.intro-container h2{
-    font-family: 'Roboto','sans-serif';
-    color:black;
-    font-weight: lighter;
-    line-height: 50px;
-}
-.intro-container p{
-    font-family: 'Roboto','sans-serif';
-    font-size: 20px;
-    color:black;
-    font-weight:normal;
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
-}
-.videos{
+.contents{
     display: flex;
     flex-direction: row;
-    border: 5px solid black;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 5%;
 }
-.videos img{
-    width: 500px;
+.profile-picture{
+    margin-left: 5%;
+}
+.profile-picture img{
+    width: 300px;
+    height: 300px;
+}
+.name {
+    text-align: center;
+    line-height: 40px;
+}
+.name h1{
+    color: #FB9F89;
+    font-size: 50px;
+    font-family: 'roboto','sans-serif';
+    font-weight: bold;
+}
+.name h2{
+    color: #FB9F89;
+    font-size: 20px;
+    font-family: 'roboto','sans-serif';
+    font-weight:lighter;
+}
+.name p{
+    color: #FB9F89;
+    font-size: 18px;
+    font-family: 'roboto','sans-serif';
+    font-weight:normal;
+    text-align: justify;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#button-1{
+    background-color:#FB9F89;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: #1e1e24;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: 0.5s ease all;
+}
+#button-2{
+    background-color: transparent;
+    border: 3px solid #FB9F89;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: 0.5s ease all;
 }

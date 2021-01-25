@@ -1,0 +1,13 @@
+#button-1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 3px solid #FB9F89 ;
+}
+#button-2:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+    background-color: #FB9F89;
+    color: #1e1e24;
+}
