@@ -20,6 +20,7 @@ body{
 .profile-picture img{
     width: 300px;
     height: 300px;
+    border-radius: 100%;
 }
 .name {
     text-align: center;
