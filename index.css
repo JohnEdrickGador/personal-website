@@ -63,6 +63,7 @@ body{
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-top: 30px;
 }
 #button-1{
     background-color:#FB9F89;
