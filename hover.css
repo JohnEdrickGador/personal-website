@@ -11,3 +11,7 @@
     background-color: #FB9F89;
     color: #1e1e24;
 }
+.icons img:hover{
+    transform: translateY(-10px);
+    opacity: 50%;
+}
