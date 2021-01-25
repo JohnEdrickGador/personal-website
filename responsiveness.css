@@ -1,0 +1,101 @@
+
+@media screen and (max-width:700px){
+    .contents{
+        display: flex;
+        flex-direction: column;
+    }
+    #portrait{
+        width: 100px;
+        height: 100px;
+    }
+    .profile-picture{
+        flex-direction: center;
+        align-items: center;
+    }
+    .icons{
+        justify-content: space-evenly;
+        width: 300px;
+        margin-top: 20px;
+    }
+    .icons img{
+        width: 30px;
+        height: 30px;
+    }
+    .name{
+        line-height: 30px;
+    }
+    .name h1{
+        font-size: 20px;
+    }
+    .name h2{
+        font-size: 15px;
+    }
+    .name p{
+        font-size: 12px;
+        width: 275px;
+        margin: auto;
+    }
+    .buttons{
+        padding-top: 15px;    
+    }
+    #button-1{
+        width: 150px;
+        height: 30px;
+        padding: 2px;
+        font-size: 15px;
+    }
+    #button-2{
+        width: 150px;
+        height: 30px;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width:701px) and (max-width:1100px){
+    .contents{
+        display: flex;
+        flex-direction: column;
+    }
+    #portrait{
+        width: 200px;
+        height: 200px;
+    }
+    .profile-picture{
+        flex-direction: center;
+        align-items: center;
+    }
+    .icons{
+        justify-content: space-evenly;
+        width: 300px;
+        margin-top: 20px;
+    }
+    .name{
+        line-height: 40px;
+    }
+    .name h1{
+        font-size: 30px;
+    }
+    .name h2{
+        font-size: 15px;
+    }
+    .name p{
+        font-size: 12px;
+        width: 500px;
+        margin: auto;
+    }
+    #button-1{
+        width: 150px;
+        height: 50px;
+        padding: 5px;
+        font-size: 18px;
+    }
+    #button-2{
+        width: 150px;
+        height: 50px;
+        padding: 5px;
+        font-size: 18px;
+    }
+
+}

@@ -15,11 +15,12 @@ body{
     margin-top: 5%;
 }
 .profile-picture{
-    margin-left: 5%;
     display: flex;
     flex-direction: column;
+    align-content: center;
+    margin-bottom: 30px;
 }
-.profile-picture img{
+#portrait{
     width: 300px;
     height: 300px;
     border-radius: 100%;
@@ -36,6 +37,7 @@ body{
 }
 .name {
     text-align: center;
+    justify-content: center;
     line-height: 40px;
 }
 .name h1{
@@ -60,7 +62,7 @@ body{
 .buttons{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin: auto;
 }
 #button-1{
     background-color:#FB9F89;
@@ -72,6 +74,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
     margin-right: 20px;
     transition: 0.5s ease all;
 }
@@ -85,6 +88,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
     margin-left: 20px;
     transition: 0.5s ease all;
 }
