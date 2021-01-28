@@ -37,19 +37,19 @@
         font-size: 12px;
     }
     .buttons{
-        padding-top: 15px;    
+        padding-top: 15px;   
     }
     #button-1{
-        width: 150px;
+        width: 125px;
         height: 30px;
         padding: 2px;
-        font-size: 15px;
+        font-size: 12px;
     }
     #button-2{
-        width: 150px;
+        width: 125px;
         height: 30px;
         padding: 2px;
-        font-size: 15px;
+        font-size: 12px;
     }
 
 }
