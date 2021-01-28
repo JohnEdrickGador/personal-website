@@ -23,6 +23,9 @@
     }
     .name{
         line-height: 30px;
+        width:80%;
+        margin:0 auto;
+        position: relative;
     }
     .name h1{
         font-size: 20px;
@@ -32,8 +35,6 @@
     }
     .name p{
         font-size: 12px;
-        width: 275px;
-        margin: auto;
     }
     .buttons{
         padding-top: 15px;    
@@ -73,6 +74,9 @@
     }
     .name{
         line-height: 40px;
+        width:80%;
+        margin:0 auto;
+        position: relative;
     }
     .name h1{
         font-size: 30px;
